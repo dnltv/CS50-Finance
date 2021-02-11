@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class='table'>
+        <thead class='thead-light'>
+            <tr>
+                <th scope='col'>Symbol</th>
+                <th scope='col'>Name</th>
+                <th scope='col'>Shares</th>
+                <th scope='col'>Value</th>
+                <th scope='col'>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for tr in trans %}
+            <tr>
+                <th scope='row'>{{ tr[0] }}</th>
+                <td>{{ tr[1] }}</td>
+                <td>{{ tr[2] }}</td>
+                <td>{{ tr[3] }}</td>
+                <td>{{ tr[4] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
