@@ -1,1 +1,1 @@
-API_KEY='pk_5adb716ed44d4a81ad1c85075b4fe7ed '
+API_KEY='pk_5adb716ed44d4a81ad1c85075b4fe7ed'
