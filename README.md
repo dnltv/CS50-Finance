@@ -20,8 +20,11 @@ A virtual exchange web application that allows you to buy/sell shares at current
 #### Register
 <img src="static/screenshots/register.png" alt="register">
 
+#### Property
+<img src="static/screenshots/history.png" alt="property">
+
 #### History
-<img src="static/screenshots/history.png" alt="history">
+<img src="static/screenshots/history1.png" alt="history">
 
 ## Getting Started
 <ol>
